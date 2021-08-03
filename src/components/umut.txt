@@ -1,0 +1,11 @@
+<View style={styles.container}>
+      <View style={styles.info_container}>
+        <Text style={styles.title}>Yapilacaklar</Text>
+        <Text style={styles.todosayisi}>0</Text>
+      </View>
+      <View>
+        <FlatList />
+        <Buton />
+      </View>
+      <SearchBar />
+    </View>
